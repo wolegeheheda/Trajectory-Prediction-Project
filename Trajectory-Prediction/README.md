@@ -1,6 +1,9 @@
 # Datasets
 [Apollo-Trajectory](http://apolloscape.auto/trajectory.html)
 
+# GitHub参考项目
+**xuehaouwa对轨迹预测的总结：**[Awesome-Trajectory-Prediction](https://github.com/xuehaouwa/Awesome-Trajectory-Prediction)
+
 # 相关参考博客
 [自动驾驶中行为预测的一些根本问题和最新方法-机器之心-战威](https://www.jiqizhixin.com/articles/2019-02-13-23)
 
