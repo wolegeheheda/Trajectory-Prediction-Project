@@ -2,7 +2,7 @@
 [Apollo-Trajectory](http://apolloscape.auto/trajectory.html)
 
 # GitHub参考项目
-**xuehaouwa对轨迹预测的总结：**[Awesome-Trajectory-Prediction](https://github.com/xuehaouwa/Awesome-Trajectory-Prediction)
+**xuehaouwa对轨迹预测的资料搜集：**[Awesome-Trajectory-Prediction](https://github.com/xuehaouwa/Awesome-Trajectory-Prediction)
 
 # 相关参考博客
 [Social LSTM 实现代码分析](https://www.cnblogs.com/sinoyou/p/11219618.html);[Social LSTM代码](https://github.com/xuerenlv/social-lstm-tf)
