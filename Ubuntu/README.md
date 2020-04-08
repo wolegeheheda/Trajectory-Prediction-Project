@@ -16,3 +16,5 @@
 
 其中jetbrains-agent.jar下载失效，请参考[这里](https://www.jb51.net/softs/672190.html)
 
+[后续利用PyCharm远程调试代码参考](https://www.cnblogs.com/xuegqcto/p/8621689.html)
+
