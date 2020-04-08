@@ -18,3 +18,4 @@
 
 [后续利用PyCharm远程调试代码参考](https://www.cnblogs.com/xuegqcto/p/8621689.html)
 
+[PyCharm入门](https://www.evget.com/article/2018/8/24/28417.html)
