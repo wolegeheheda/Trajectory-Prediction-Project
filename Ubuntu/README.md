@@ -9,3 +9,10 @@
 
 [Ubuntu18.04安装opencv3.4.3](https://blog.csdn.net/qq_41080854/article/details/88609795?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 
+## PyCharm Professional Edition安装参考
+[PyCharm各版本下载](https://www.jetbrains.com/pycharm/download/other.html)
+
+[PyCharm安装参考](https://www.cnblogs.com/booturbo/archive/2019/10/25/11738174.html)
+
+其中jetbrains-agent.jar下载失效，请参考[这里](https://www.jb51.net/softs/672190.html)
+
