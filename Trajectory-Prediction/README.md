@@ -16,3 +16,5 @@
 
 **查找文献对应代码:**[paperwithcode——Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)
 
+**PyCharm实现高效远程调试代码：**[https://www.cnblogs.com/xuegqcto/p/8621689.html]
+
