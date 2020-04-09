@@ -22,4 +22,15 @@
 ## anaconda安装参考
 [安装教程](https://blog.csdn.net/weixin_38548467/article/details/98883792?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-2&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-2);按照安装流程运行**conda -V**测试时可能出错，可先执行**source ~/.bashrc**后再测试
 
+## 在远程服务器创建虚拟环境，并配置pytorch、tensorboard
+0. 在pycharm中远程连接服务器。以下操作都在服务器的命令行中实现。[如何远程调试](https://www.cnblogs.com/xuegqcto/p/8621689.html)
 
+1. 使用wget命令下载anaconda，建议使用清华源或其他国内源 [具体步骤参考](https://www.cnblogs.com/zwq-zju/p/9715162.html)
+
+2. [创建/删除虚拟环境](http://www.bieryun.com/6461.html)
+
+3. 使用nvidia-smi命令查看CUDA，去[官网](https://pytorch.org/get-started/locally/)查看对应命令并在虚拟环境中运行
+
+4. 这里仅安装tensorboard：在虚拟环境下pip install tensorboard
+
+5. [在pycharm中使用远程虚拟环境](https://www.jb51.net/article/175949.htm)
