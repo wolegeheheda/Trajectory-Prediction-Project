@@ -5,7 +5,7 @@
 
 # 参考教程
 ## GTX1050Ti安装Ubuntu18.04和显卡驱动 ##
-这里提供两个链接可供参考[1](https://blog.csdn.net/nwpushuai/article/details/79935740)[2](https://blog.csdn.net/u014003662/article/details/88547512)
+这里提供两个链接可供参考[1](https://blog.csdn.net/nwpushuai/article/details/79935740)，[2](https://blog.csdn.net/u014003662/article/details/88547512)
 
 sudo apt-get install nvidia-440时，遇到“E：无法定位软件包”的问题，此时打开软件更新器-附加驱动可使用nvidia-440
 ## Opencv参考
