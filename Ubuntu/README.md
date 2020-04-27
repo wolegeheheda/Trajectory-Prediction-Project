@@ -39,4 +39,15 @@ sudo apt-get install nvidia-440时，遇到“E：无法定位软件包”的问
 
 5. [在pycharm中使用远程虚拟环境](https://www.jb51.net/article/175949.htm)，你也可以参考**PyCharm Professional Edition安装流程**中的[后续利用PyCharm远程调试代码](https://www.cnblogs.com/xuegqcto/p/8621689.html)
 
+## 远程服务器调用tensorboard
+由于在远程服务器使用tensorboard，所以网上常规的加--host=127.0.0.1并没有用-_-
 
+以pycharm为例，做法如下：
+
+1. 打开pycharm本地终端输入ssh -L 16006:127.0.0.1:6006 username@remote_server_ip 这里16006:127.0.0.1代表自己机器上的16006号端口，6006是服务器上tensorboard使用的端口，tensorboard默认使用6006
+
+2. 在服务器上使用6006端口启用tensorboard： tensorboard --logdir=/home/xxx/logs/ --port=6006，如果这里端口被占用，需要对上一步和这一步的port进行更改
+
+3. 本地浏览器输入127.0.0.1:16006即可
+
+ps 建议使用火狐或谷歌浏览器，还出现问题可能需要将浏览器更新
