@@ -3,7 +3,6 @@
 
 [Ubuntu18.04.2-提取码dgh7](https://pan.baidu.com/s/1O9ol3tsvVpnrmT-lWBkzRw)
 
-https://doc-0c-4c-docs.googleusercontent.com/docs/securesc/qhck9k334ctu14u43vh53ejaqdmv6equ/87c5ph7ae1ok3s6ai1r443u6e5n1ghuu/1589335875000/02161923424159588081/03537724015997752065Z/1qmN2AUwQG37wXCwZYzqXP5G9pNXUye48?e=download
 
 # 参考教程
 ## GTX1050Ti安装Ubuntu18.04和显卡驱动 ##
@@ -33,7 +32,7 @@ sudo apt-get install nvidia-440时，遇到“E：无法定位软件包”的问
 
 1. 使用wget命令下载anaconda，建议使用清华源或其他国内源 [具体步骤参考](https://www.cnblogs.com/zwq-zju/p/9715162.html)
 
-2. [创建/删除虚拟环境](http://www.bieryun.com/6461.html)
+2. [创建/删除虚拟环境](http://www.bieryun.com/6461.html) 激活虚拟环境报错可尝试 export PATH="~/anaconda3/bin:$PATH"
 
 3. 使用nvidia-smi命令查看CUDA，去[官网](https://pytorch.org/get-started/locally/)查看对应命令并在虚拟环境中运行
 
