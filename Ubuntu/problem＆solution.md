@@ -7,3 +7,8 @@
 1. sudo service network-manager stop
 2. sudo rm /var/lib/NetworkManager/NetworkManager.state 
 3. sudo service network-manager start
+
+## 报错ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
+本质上的原因就是将cv路径是默认找为基于Python2.7版本的cv
+
+解决方法 export PYTHONPATH="/home/ubuntu/anaconda3/envs/dmt_env/lib/python3.6/site-packages:$PYTHONPATH" 将此处改为对应路径
