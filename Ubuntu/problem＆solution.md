@@ -18,3 +18,6 @@
 
 ## 打开管理员权限的文件夹
 运行命令 sudo nautilus，就可以打开一个具有管理员权限的文件管理器，然后就可以在不切换到管理员的条件下拷贝文件
+
+## 查询opencv版本
+pkg-config --modversion opencv （pkg-config --modversion opencv4 ）opencv4以后的版本使用括号中的命令查询
