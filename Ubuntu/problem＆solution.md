@@ -14,7 +14,19 @@
 解决方法 export PYTHONPATH="/home/ubuntu/anaconda3/envs/dmt_env/lib/python3.6/site-packages:$PYTHONPATH" 将此处改为对应路径
 
 ## git clone速度慢
-使用国内镜像 git clone https://github.com/** → git clone https://github.com.cnpmjs.org/**  
+使用国内镜像
+#原地址
+git clone https://github.com/kubernetes/kubernetes.git
+
+#改为
+git clone https://github.com.cnpmjs.org/kubernetes/kubernetes.git
+
+#或者
+git clone https://hub.fastgit.org/kubernetes/kubernetes.git
+
+#或者
+git clone https://gitclone.com/github.com/kubernetes/kubernetes.git
+
 
 ## 打开管理员权限的文件夹
 运行命令 sudo nautilus，就可以打开一个具有管理员权限的文件管理器，然后就可以在不切换到管理员的条件下拷贝文件
